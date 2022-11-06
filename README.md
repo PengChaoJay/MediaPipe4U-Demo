@@ -17,3 +17,8 @@ set DIR="D:\3D_Works\UE\MediaPipe4U\Build" ------> set DIR="[this is your folder
 2. save maklink.bat   
 
 3. Run maklink.bat as administrator （Administrator privileges are required to run mklink command）
+
+## Where can I download plugins?
+
+Please visit this repository release page:      
+https://github.com/endink/Mediapipe4u-plugin/
