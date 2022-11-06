@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.0",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MediaPipe4U_Demo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "MediaPipe4U",
+			"Enabled": true
+		},
+		{
+			"Name": "GStreamer",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4UGStreamer",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4ULiveLink",
+			"Enabled": true
+		}
+	]
+}
