@@ -21,4 +21,4 @@ set DIR="D:\3D_Works\UE\MediaPipe4U\Build" ------> set DIR="[this is your folder
 ## Where can I download plugins?
 
 Please visit this repository release page:      
-https://github.com/endink/Mediapipe4u-plugin/
+https://github.com/endink/Mediapipe4u-plugin/releases/
