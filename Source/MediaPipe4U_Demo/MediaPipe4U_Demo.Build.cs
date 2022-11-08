@@ -8,7 +8,7 @@ public class MediaPipe4U_Demo : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "MediaPipe" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "MediaPipe", "DesktopPlatform" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
