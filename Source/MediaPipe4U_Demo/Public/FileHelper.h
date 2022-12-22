@@ -18,4 +18,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	static  bool ShowOpenVideoDialog(const FString& DialogTitle, FString& File);
+ 
+	UFUNCTION(BlueprintCallable)
+	static  bool SaveBVHFileDialog(const FString& DialogTitle, FString& File);
 };

@@ -23,7 +23,7 @@ bool UFileHelper::ShowOpenImageDialog(const FString& DialogTitle, FString& File)
 		);
 	if (files.Num() > 0)
 	{
-		File = files[0];
+		File = FPaths::ConvertRelativePathToFull(files[0]);
 		return true;
 	}
 #endif
@@ -46,7 +46,30 @@ bool UFileHelper::ShowOpenVideoDialog(const FString& DialogTitle, FString& File)
 		);
 	if (files.Num() > 0)
 	{
-		File = files[0];
+		File = FPaths::ConvertRelativePathToFull(files[0]);
+		return true;
+	}
+#endif
+
+	return false;
+}
+
+bool UFileHelper::SaveBVHFileDialog(const FString& DialogTitle, FString& File)
+{
+#if PLATFORM_WINDOWS
+	TArray<FString> files;
+	FDesktopPlatformModule::Get()
+		->SaveFileDialog(GetActiveWindow(),
+						 DialogTitle,
+						 TEXT("/"),
+						 TEXT(""),
+						 TEXT("BVH|*.bvh"),
+						 static_cast<uint32_t>(EFileDialogFlags::None),
+						 files
+		);
+	if (files.Num() > 0)
+	{
+		File = FPaths::ConvertRelativePathToFull(files[0]);
 		return true;
 	}
 #endif

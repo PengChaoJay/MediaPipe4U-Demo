@@ -33,6 +33,10 @@
 		{
 			"Name": "MediaPipe4ULiveLink",
 			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4UBVH",
+			"Enabled": true
 		}
 	]
 }
