@@ -1,7 +1,7 @@
 # MediaPipe4U-Demo
 MediaPipe4U Plugin Demo Project   
 
-Current Plugin Version: **20221220**
+Current Plugin Version: **20230104**
 
 How to use:
 
