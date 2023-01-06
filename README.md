@@ -50,5 +50,14 @@ https://github.com/endink/Mediapipe4u-plugin
 
 3. Open "MediaPipe4U_Demo.sln " with Visual Studio or Rider and compile project.
 
+## When I update the version of the MediaPipe4U plugin, how do I need to do?
+
+1. Just double click "clean_project.bat", the folder will be deleted.
+2. Mouse right click "MediaPipe4U_Demo.uproject" and click "Generate Visual Studio project files".
+3. Open "MediaPipe4U_Demo.sln " with Visual Studio or Rider and compile project.
+   
 > If you accidentally perform a "clean solution" operation that will damage the plugin, please re-download the plugin and copy folders to the plugins directory.
 
+## How to fix "GStreamer-WARNING **: Failed to load plugin 'XXXX\gstassrender.dll'"
+
+This is a known GSteamer dependency warning, and although it is shown in red color, you can ignore it without causing any errors.
