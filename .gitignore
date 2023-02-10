@@ -77,3 +77,4 @@ DerivedDataCache/*
 
 Out/*
 Plugins/*
+!Plugins/mklink.bat
