@@ -3,6 +3,7 @@
 
 #include "FileHelper.h"
 #include "DesktopPlatformModule.h"
+#include "Misc/Paths.h"
 
 #if PLATFORM_WINDOWS
 #include "Windows/AllowWindowsPlatformTypes.h"

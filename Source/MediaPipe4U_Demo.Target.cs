@@ -9,6 +9,7 @@ public class MediaPipe4U_DemoTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultWarningLevel = WarningLevel.Warning;
 		ExtraModuleNames.AddRange( new string[] { "MediaPipe4U_Demo" } );
 	}
 }

@@ -6,11 +6,27 @@ public class MediaPipe4U_Demo : ModuleRules
 {
 	public MediaPipe4U_Demo(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+		PCHUsage = PCHUsageMode.NoPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "MediaPipe" });
+		PublicDependencyModuleNames.AddRange(new string[]
+		{
+			"Core", 
+			"CoreUObject", 
+			"Engine", 
+			"InputCore", 
+			"MediaPipe",
+		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  "DesktopPlatform" });
+		PrivateDependencyModuleNames.AddRange(new string[]
+		{
+			"Core", 
+			"CoreUObject",
+			"MediaPipeGStreamer",
+			"MediaPipeBVH",
+			"MediaPipeLiveLink",
+			"MediaPipeNvAR",
+			"DesktopPlatform",
+		});
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
