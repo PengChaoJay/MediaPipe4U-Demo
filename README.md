@@ -1,7 +1,9 @@
 # MediaPipe4U-Demo
 MediaPipe4U Plugin Demo Project   
+---
+[简体中文](README_CN.md)   
 
-Current Plugin Version: **20230210**
+Current Plugin Version: **2023-02-27**
 
 How to use:
 
