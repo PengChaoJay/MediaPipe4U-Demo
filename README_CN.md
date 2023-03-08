@@ -3,6 +3,10 @@ MediaPipe4U 插件示例工程
 ---
 [English](README.md)
 
+> 本工程默认使用 UE5.1，如果你使用的是 UE5.0, 请使用 UE 工具自行转换，也可以切换到 5.0 分支拉取代码.   
+> 
+> 如果你对 git 不熟悉，可以点击 [这里](https://github.com/endink/MediaPipe4U-Demo/tree/UE_5_0) 切换到 UE5.0 分支
+
 兼容的插件最低版本: **2023-02-27**
 
 如何使用:

@@ -3,6 +3,10 @@ MediaPipe4U Plugin Demo Project
 ---
 [简体中文](README_CN.md)   
 
+> This project uses UE 5.1 by default, if you are using UE 5.0, please use UE tools to convert yourself, or you can switch to the 5.0 branch to pull code
+>   
+>  If you're not familiar with git, you can click [here](https://github.com/endink/MediaPipe4U-Demo/tree/UE_5_0) to switch  UE5.0 version
+   
 Current Plugin Version: **2023-02-27**
 
 How to use:
