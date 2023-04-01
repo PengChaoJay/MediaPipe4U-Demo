@@ -7,7 +7,7 @@ MediaPipe4U 插件示例工程
 > 
 > 如果你对 git 不熟悉，可以点击 [这里](https://github.com/endink/MediaPipe4U-Demo/tree/UE_5_0) 切换到 UE5.0 分支
 
-兼容的插件最低版本: **2023-02-27**
+兼容的插件最低版本: **2023-04-01**
 
 如何使用:
 
