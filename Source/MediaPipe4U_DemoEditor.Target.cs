@@ -9,6 +9,7 @@ public class MediaPipe4U_DemoEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 		ExtraModuleNames.AddRange( new string[] { "MediaPipe4U_Demo" } );
 	}
 }
