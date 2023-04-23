@@ -7,7 +7,7 @@ MediaPipe4U Plugin Demo Project
 >   
 >  If you're not familiar with git, you can click [here](https://github.com/endink/MediaPipe4U-Demo/tree/UE_5_0) to switch  UE5.0 version
 
-Minimum Compatible Plug-in Version: **2023-04-01**
+Compatible MediaPipe4U Plugin Version: **2022.1.1.20230423** or later
 
 How to use:
 

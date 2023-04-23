@@ -21,6 +21,7 @@ public class MediaPipe4U_Demo : ModuleRules
 		{
 			"Core", 
 			"CoreUObject",
+			"MediaPipe",
 			"MediaPipeGStreamer",
 			"MediaPipeBVH",
 			"MediaPipeLiveLink",
