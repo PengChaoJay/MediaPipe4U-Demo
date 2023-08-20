@@ -33,5 +33,7 @@ mklink /D "%~dp0MediaPipe4ULiveLink" "%DIR%\MediaPipe4ULiveLink"
 mklink /D "%~dp0MediaPipe4UBVH" "%DIR%\MediaPipe4UBVH"
 mklink /D "%~dp0MediaPipe4UNvAR" "%DIR%\MediaPipe4UNvAR"
 mklink /D "%~dp0MediaPipe4USpeech" "%DIR%\MediaPipe4USpeech"
+mklink /D "%~dp0MediaPipe4ULLM" "%DIR%\MediaPipe4ULLM"
+mklink /D "%~dp0MediaPipe4ULLMSpeech" "%DIR%\MediaPipe4ULLMSpeech"
 
 pause > nul

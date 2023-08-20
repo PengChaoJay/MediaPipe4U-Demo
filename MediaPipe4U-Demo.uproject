@@ -48,6 +48,18 @@
 		{
 			"Name": "LiveLink",
 			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4USpeech",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4ULLM",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4ULLMSpeech",
+			"Enabled": true
 		}
 	]
 }
