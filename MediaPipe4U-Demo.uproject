@@ -10,7 +10,8 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine"
-			]
+			],
+			"WhitelistPlatforms": ["Win64"]
 		}
 	],
 	"Plugins": [

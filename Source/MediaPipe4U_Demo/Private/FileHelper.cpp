@@ -5,16 +5,12 @@
 #include "DesktopPlatformModule.h"
 #include "Misc/Paths.h"
 
-#if PLATFORM_WINDOWS
-#include "Windows/AllowWindowsPlatformTypes.h"
-#endif
-
 bool UFileHelper::ShowOpenImageDialog(const FString& DialogTitle, FString& File)
 {
 #if PLATFORM_WINDOWS  
 	TArray<FString> files;
 	FDesktopPlatformModule::Get()
-		->OpenFileDialog(GetActiveWindow(),
+		->OpenFileDialog(FSlateApplication::Get().FindBestParentWindowHandleForDialogs(nullptr),
 						 DialogTitle,
 						 TEXT("/"),
 						 TEXT(""),
@@ -37,7 +33,7 @@ bool UFileHelper::ShowOpenVideoDialog(const FString& DialogTitle, FString& File)
 #if PLATFORM_WINDOWS
 	TArray<FString> files;
 	FDesktopPlatformModule::Get()
-		->OpenFileDialog(GetActiveWindow(),
+		->OpenFileDialog(FSlateApplication::Get().FindBestParentWindowHandleForDialogs(nullptr),
 						 DialogTitle,
 						 TEXT("/"),
 						 TEXT(""),
@@ -60,7 +56,7 @@ bool UFileHelper::SaveBVHFileDialog(const FString& DialogTitle, FString& File)
 #if PLATFORM_WINDOWS
 	TArray<FString> files;
 	FDesktopPlatformModule::Get()
-		->SaveFileDialog(GetActiveWindow(),
+		->SaveFileDialog(FSlateApplication::Get().FindBestParentWindowHandleForDialogs(nullptr),
 						 DialogTitle,
 						 TEXT("/"),
 						 TEXT(""),
