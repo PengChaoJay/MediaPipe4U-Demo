@@ -9,7 +9,7 @@ Demo project for mediapipe4u plugin
 <br>
 <br>
 <a href=""><img src="https://img.shields.io/badge/Unreal Engine-5.1-purple.svg"></a>
-<a href=""><img src="https://img.shields.io/badge/Test Pass-M4U 20230817 or later-green.svg"></a>
+<a href=""><img src="https://img.shields.io/badge/Test Pass-M4U 20231010 or later-green.svg"></a>
 <p align="center">
 <a href="https://github.com/endink/Mediapipe4u-plugin">Get MediaPipe4U Plugin</a>
 </p>

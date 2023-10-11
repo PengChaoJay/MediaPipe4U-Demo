@@ -9,13 +9,13 @@ Demo project for mediapipe4u plugin
 <br>
 <br>
 <a href=""><img src="https://img.shields.io/badge/Unreal Engine-5.1-purple.svg"></a>
-<a href=""><img src="https://img.shields.io/badge/测试通过-M4U 20230817 or later-green.svg"></a>
+<a href=""><img src="https://img.shields.io/badge/测试通过-M4U 20231010 or later-green.svg"></a>
 <p align="center">
 <a href="https://github.com/endink/Mediapipe4u-plugin">Get MediaPipe4U Plugin</a>
 </p>
 </p>
 
-兼容的 MediaPipe4U 插件版本: **2022.1.1.20230617**或更高
+兼容的 MediaPipe4U 插件版本: **2022.1.1.20231010**或更高
 
 如何使用:
 
